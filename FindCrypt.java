@@ -912,7 +912,7 @@ public class FindCrypt extends GhidraScript {
 	public static class WorksetManager {
 		private static final String __FCUPD_BASEURL = "https://raw.githubusercontent.com/d3v1l401/FindCrypt-Ghidra/master/findcrypt_ghidra";
 
-		private static final String __FCDATA_DIR = System.getProperty("user.home") + File.separator + "findcrypt_ghidra" + File.separator;
+		private static final String __FCDATA_DIR = System.getProperty("user.home") + File.separator + ".findcrypt_ghidra" + File.separator;
 
 		private static DatabaseManager _dbHandler;
 		private static UpdateManager   _updHandler;

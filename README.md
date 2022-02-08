@@ -19,15 +19,15 @@ I'm trying to move to Ghidra and the very first thing I noticed is how important
 
 1. Find your Ghidra installation directory (e.g. "E:\Reversing Softwares\ghidra_9.0")
 2. Move "FindCrypt.java" into "Ghidra\Features\BytePatterns\ghidra_scripts"
-3. Move "findcrypt_ghidra" (database directory) into "C:\Users\your user\"
-4. Be sure Ghidra can access the "findcrypt_ghidra" directory both for reading and writing.
+3. Move "findcrypt_ghidra" as ".findcrypt_ghidra" (database directory) into "C:\Users\your user\"
+4. Be sure Ghidra can access the ".findcrypt_ghidra" directory both for reading and writing.
 
-#### Linux
+#### Linux and MacOS
 
 1. Find your Ghidra installation directory (e.g. ~/ghidra)
 2. Move "FindCrypt.java" into "~/ghidra/Features/BytePatterns/ghidra_scripts"
-3. Move "findcrypt_ghidra" (database directory) into ~/ (or $HOME)
-4. Be sure Ghidra can access the "~/findcrypt_ghidra" directory both for reading and writing.
+3. Move "findcrypt_ghidra" as ".findcrypt_ghidra" (database directory) into ~/ (or $HOME)
+4. Be sure Ghidra can access the "~/.findcrypt_ghidra" directory both for reading and writing.
 
 ## Usage
 
